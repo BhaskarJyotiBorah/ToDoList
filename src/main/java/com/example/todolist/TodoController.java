@@ -33,5 +33,12 @@ public class TodoController {
         });
     }
 
+    @FXML
+    private void deleteAll(){//Clears all tasks when clicked
+        if(!taskList.getItems().isEmpty()){
+            taskList.getItems().clear();
+        }
+    }
+
 
 }

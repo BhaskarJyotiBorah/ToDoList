@@ -12,6 +12,7 @@
 
     <TextField fx:id="taskInput" promptText="Enter task"/>
     <Button text="Add Task" onAction="#handleAddTask"/>
+    <Button text="Clear All" onAction="#deleteAll"/>
     <ListView fx:id="taskList"/>
 </VBox>
 
